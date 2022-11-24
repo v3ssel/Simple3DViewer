@@ -11,7 +11,7 @@ ifeq (${OS}, Linux)
 	TEST_LIBS += -lsubunit -lrt
 endif
 
-all: install dist dvi tests check
+all: install dist tests check
 
 install:
 	mkdir -p ${BUILD}
